@@ -1,0 +1,46 @@
+body{
+    color: green;
+    margin: 0px;
+    font-family: "Iceberg", sans-serif;
+}
+
+caption, thead{
+    color: red;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.anav{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 40px;
+    border: 2px solid black;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+}

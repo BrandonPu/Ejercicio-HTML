@@ -1,0 +1,30 @@
+nav{
+    background-color:rgb(61, 61, 159);
+    padding: 10px;
+}
+ 
+body{
+    margin: 0px;
+    background-color: rgb(214, 202, 185);
+    font-family: "Playwrite AU NSW", cursive;
+}
+ 
+footer{
+    text-align: center;
+    font-family: "Playwrite AU NSW", cursive;
+    position: relative;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.anav{
+    color: white;
+    text-decoration: none;
+}

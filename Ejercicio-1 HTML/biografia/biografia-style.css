@@ -1,0 +1,78 @@
+body{
+    color: blue;
+    margin: 0px;
+    font-family: "Iceberg", sans-serif;
+}
+
+caption, thead{
+    color: red;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+nav{
+    background-color: rgb(211, 183, 183);
+    padding: 20px;
+}
+
+.anav{
+    color: blue;
+    text-decoration: none;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 50px;
+    border: 2px solid black;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    background-color: #f9f9f9;
+}
+
+.section {
+    margin-bottom: 20px;
+    
+}
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+}
+
+
+img{
+    float: right;
+}
