@@ -3,6 +3,13 @@ nav{
     padding: 10px;
 }
  
+caption, thead{
+    color: red;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
 body{
     margin: 0px;
     background-color: rgb(214, 202, 185);
@@ -19,6 +26,11 @@ footer{
     padding-right: 30px;
 }
 
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+
 .ulnav{
     display: flex;
     list-style-type: none;
@@ -27,4 +39,21 @@ footer{
 .anav{
     color: white;
     text-decoration: none;
+}
+
+table{
+    margin: 40px;
+    border: 2px solid black;
+}
+
+.titlecontainer{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pcontainer{
+    color: black;
+    text-align: center;
+    font-size: 20px;
 }
